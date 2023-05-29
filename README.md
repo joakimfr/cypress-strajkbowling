@@ -3,6 +3,7 @@
 User stories
 
 1. User story: Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
+
 acceptanskriterier: 
 1. När jag besöker bokningssidan ska det finnas ett formulär där jag kan ange datum, tid och antal spelare för min bokning.
 2. 
