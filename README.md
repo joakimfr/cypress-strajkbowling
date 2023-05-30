@@ -1,16 +1,18 @@
 # cypress-strajkbowling
 
-User stories
+User story: 
 
-1. User story: Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
+1. Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
 
 acceptanskriterier: 
-När jag besöker bokningssidan ska det finnas ett formulär där jag kan ange datum, tid och antal spelare för min bokning.
-Alla fälten i formuläret ska vara obligatoriska.
 
+1. När jag besöker bokningssidan ska det finnas ett formulär där jag kan ange datum, tid och antal spelare för min bokning.
+2. Jag ska kunna fylla i giltiga värden för datum, tid och antal spelare.
+3. Efter att jag har fyllt i formuläret ska det finnas en knapp för att skicka bokningen.
+
+User story: 
  
-
-2. User story: Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
+2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 
 3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 
