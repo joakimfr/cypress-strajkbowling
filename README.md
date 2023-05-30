@@ -6,11 +6,11 @@ User stories
 
 acceptanskriterier: 
 När jag besöker bokningssidan ska det finnas ett formulär där jag kan ange datum, tid och antal spelare för min bokning.
-
+Alla fälten i formuläret ska vara obligatoriska.
 
  
 
-2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
+2. User story: Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 
 3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 
