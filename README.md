@@ -13,17 +13,29 @@ Acceptanskriterier:
 User story: 
  
  2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
+ 3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 
 Acceptanskriterier: 
 
  1. Efter att jag har fyllt i datum, tid och antal spelare i bokningsformuläret ska det finnas en sektion där jag kan ange skostorlek för varje spelare.
- 2. För varje spelare ska det finnas en dropdown-lista eller ett textfält där jag kan välja eller ange skostorlek.
+ 2. För varje spelare ska det finnas ett textfält där jag kan ange skostorlek.
  3. Jag ska kunna välja eller ange giltiga skostorlekar för varje spelare.
+ 4. Jag ska kunna ta bort ett fält om jag råkar klicka i en person för mycket som ska ha skor.
 
 User story:
 
-3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
+ 4. Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 
-4. Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
+Acceptanskriterier:
+
+ 1. När jag fyller i formuläret med giltiga värden i alla inputs och klickar på skicka-knappen, ska en bokningsbekräftelse visas.
+ 2. Information på bokningsbekräftelsen ska stämma med vad jag skrev in i samtliga inputs.
+ 3. Den totala summan ska beräknas: 120 kr per person plus 100 kr per bana.
+ 4. Bokningsbekräftelsen ska innehålla ett unikt bokningsnummer för den pågående reservationen.
+ 5. Om jag gör en ny bokning ska det genereras ett nytt unikt bokningsnummer och en ny totalsumma.
+
+User story: 
 
 5. Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
+
+Acceptanskriterier:
