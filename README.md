@@ -39,6 +39,7 @@ User story:
 5. Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 
 Acceptanskriterier:
-1. Det ska finnas en meny-knapp och kunna klicka på den för att navigera sig vidare.
+1. Det ska finnas en meny-knapp och det ska gå att klicka på den för att navigera sig vidare.
+2. När knappen är klickad ska det finnas två val, ett för Booking och ett för Confirmation.
 3. När jag klickar på Confirmation i navigations-menyn ska jag omdirigeras till bekräftelsesidan.
 4. När jag klickar på Booking i navigations-menyn ska jag omdirigeras till bokningssidan.             
