@@ -23,6 +23,11 @@ describe('Confirmation spec', () => {
     cy.get('.input__field.confirmation__input').eq(3).should('exist');
 
     cy.get('.confirmation__price').should('contain', '220 sek');
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> fe1f32aca7fa218e2371a9fb72f359a02790c4e9
   })
 
   it('Ska generera ett nytt unikt bokningsnummer vid varje ny boking', () => {
