@@ -42,4 +42,14 @@ Acceptanskriterier:
 1. Det ska finnas en meny-knapp och det ska gå att klicka på den för att navigera sig vidare.
 2. När knappen är klickad ska det finnas två val, ett för Booking och ett för Confirmation.
 3. När jag klickar på Confirmation i navigations-menyn ska jag omdirigeras till bekräftelsesidan.
-4. När jag klickar på Booking i navigations-menyn ska jag omdirigeras till bokningssidan.             
+4. När jag klickar på Booking i navigations-menyn ska jag omdirigeras till bokningssidan.  
+
+User story för felhantering:
+
+ 6. Som användare vill jag inte kunna skicka en beställning om alla inputs inte är ifyllda.
+
+  Acceptanskriterier:
+  1. När jag försöker skicka en beställning utan att fylla i alla inputs visas ett felmeddelande.
+  2. När jag försöker skicka en beställning med alla inputs ifyllda men med olika antal personer och skor visas ett felmeddelande.
+  3. När jag fyller i samma antal personer som antal skor och fyller i alla inputs förutom ett så ska ett felmeddelande visas.
+  4. När alla inputs fylls i korrekt ska felmeddelandet försvinna.
