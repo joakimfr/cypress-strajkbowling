@@ -1,14 +1,14 @@
-describe('Bokningssida', () => {
+describe('shoe sizes spec', () => {
   beforeEach(() => {
     cy.visit('http://localhost:5173/') 
   })
 
-  it('ska finnas en sektion för skostorlek', () => {
+  it('should exist a section for shoe sizes', () => {
     cy.get('.shoes').should('exist');
     
   });
 
-  it('ska kunna ange skostorlek för varje spelare och kunna ta bort', () => {
+  it('should be able to enter shoe size for each player and be able to remove', () => {
     cy.get('.shoes__button').click();
     cy.get('.shoes__form').should('have.length', 1); 
     cy.get('.shoes__input').eq(0).type('42'); 

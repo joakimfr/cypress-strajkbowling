@@ -11,7 +11,7 @@ describe('Confirmation spec', () => {
     cy.get('.booking__button').click();
   })
 
-  it('ska visa en bokningsbekräftelse med korrekt information', () => {
+  it('should display a booking confirmation with correct information', () => {
     cy.get('.confirmation').should('exist');
 
     cy.wait(1000);
@@ -26,7 +26,7 @@ describe('Confirmation spec', () => {
 
   })
 
-  it('Ska generera ett nytt unikt bokningsnummer vid varje ny boking', () => {
+  it('should generate a new unique booking number for every new booking', () => {
 
     cy.get('.input__field.confirmation__input').eq(3).should('not.contain', 'STR1508TKEK');
   })
